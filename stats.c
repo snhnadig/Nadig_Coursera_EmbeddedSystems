@@ -60,7 +60,7 @@ void print_array( unsigned char *p)
 	printf("Printing contents of the array:\n");
 	for(i=0;i<SIZE;i++)
 	{
-		printf("element[%d]    %d\n",i,*p);
+		printf("element[%d]    %u\n",i,*p);
 		*p++;
 	}
 }
@@ -155,7 +155,7 @@ void sort_array(unsigned char *arr_sort)
 	printf("Printing sorted array from largest to smallest\n");
 	for (i=0;i<SIZE;i++)
 	{
-		printf("element[%d]    %d\n",i,*arr_sort);
+		printf("element[%d]    %u\n",i,*arr_sort);
 		arr_sort++;
 	}
 }
@@ -163,9 +163,9 @@ void sort_array(unsigned char *arr_sort)
 void print_statistics(unsigned char *arr2)
 {
 	printf("Mean: %u\n", mean);
-	printf("Median: %d\n", median);
-	printf("Max: %d\n", max);
-	printf("Min: %d\n", min);
+	printf("Median: %u\n", median);
+	printf("Max: %u\n", max);
+	printf("Min: %u\n", min);
 }
 
 
