@@ -1,5 +1,5 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2018 Sneha Nadig
  *
  * Redistribution, modification or use of this software in source or binary
  * forms is permitted as long as the files maintain this copyright. Users are 
@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <Header file with function declarations for functions in stats.c>
  *
- * <Add Extended Description Here>
+ * 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Sneha Nadig>
+ * @date <04/14/2018 >
  *
  */
 #ifndef __STATS_H__

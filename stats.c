@@ -1,5 +1,5 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2018 Sneha Nadig
  *
  * Redistribution, modification or use of this software in source or binary
  * forms is permitted as long as the files maintain this copyright. Users are 
@@ -130,8 +130,16 @@ unsigned char find_median(unsigned char *arr)
 			}
 		}
 	}
+	if((SIZE%2)==0)
+	{
+		middle=((SIZE/2)-1);
+		median=*(ptr+middle);
+	}
+	else
+	{
 	middle= (SIZE+1)/2;
 	median=*(ptr+middle);
+	}
 	return median;
 }
 
